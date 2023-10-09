@@ -1,0 +1,534 @@
+.sky{
+   width: 100%;
+   height: 100vh;
+    background-image: radial-gradient(ellipse at bottom, hsla(225, 26%, 16%, 1), hsla(245, 60%, 8%, 1));
+    border-width: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+// border-style: dotted;
+// border-radius: 50%;
+// border-color: pink;
+
+    >.center{
+        width: 600px;
+        height: 280px;
+        background-color: rgba(0, 0, 0, 0.496);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 200;
+        border-radius: 25px;
+        >*{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            color: white;
+           
+
+        }
+        >span{
+            
+            font-size: 40px;
+            
+          
+        }
+        >h1{
+           
+            font-size: 80px;
+            
+         
+        }
+        animation: pulse .4s linear infinite alternate;
+    }
+
+
+    @keyframes pulse {
+
+        0%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(1.1);
+        }
+        
+    }
+
+
+
+
+
+
+    .border{
+        opacity: 0;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+                     
+        border-radius: 50%;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      
+
+
+    }
+
+    >.border div{
+        
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center
+
+
+    }
+
+
+
+
+ .green{
+    position: absolute;
+    top: 490px;
+    left: 800px;
+     border: 10px dotted green !important;
+    animation: boom 10s linear infinite !important;
+    
+
+    >.b1{
+
+        opacity: 0;
+        width: 250px;
+        height: 250px;
+        border: 10px dotted green !important;
+        animation: boom 10s linear infinite;
+        >.b2{
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+            border: 10px dotted green !important;
+            animation: boom 10s linear infinite;
+            >.b3{
+                opacity: 0;
+                width: 150px;
+                height: 150px;
+                border: 10px dotted green !important;
+                animation: boom 10s linear infinite;
+                >.b4{
+
+                    opacity: 0;
+                    width: 100px;
+                    height: 100px;
+                    border: 10px dotted green !important;
+                    animation: boom 10s linear infinite;
+                }
+
+            }
+
+        }
+
+    }
+
+ }
+
+
+ .white{
+    position: absolute;
+    top: 490px;
+    left: 800px;
+     border: 10px dotted white !important;
+    animation: boom 9s linear infinite !important;
+    
+
+    >.b1{
+
+        opacity: 0;
+        width: 250px;
+        height: 250px;
+        border: 10px dotted white !important;
+        animation: boom 9s linear infinite;
+        >.b2{
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+            border: 10px dotted white !important;
+            animation: boom 9s linear infinite;
+            >.b3{
+                opacity: 0;
+                width: 150px;
+                height: 150px;
+                border: 10px dotted white !important;
+                animation: boom 9s linear infinite;
+                >.b4{
+
+                    opacity: 0;
+                    width: 100px;
+                    height: 100px;
+                    border: 10px dotted white !important;
+                    animation: boom 9s linear infinite;
+                }
+
+            }
+
+        }
+
+    }
+
+ }
+
+
+
+ .blue{
+    position: absolute;
+    top: 70px;
+    left: 90px;
+     border: 10px dotted blue !important;
+    animation: boom 8s linear infinite !important;
+    width: 500;
+    height: 500;
+    
+
+    >.b1{
+
+        opacity: 0;
+        width: 250px;
+        height: 250px;
+        border: 10px dotted blue !important;
+        animation: boom 8s linear infinite;
+        >.b2{
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+            border: 10px dotted blue !important;
+            animation: boom 8s linear infinite;
+            >.b3{
+                opacity: 0;
+                width: 150px;
+                height: 150px;
+                border: 10px dotted blue !important;
+                animation: boom 8s linear infinite;
+                >.b4{
+
+                    opacity: 0;
+                    width: 100px;
+                    height: 100px;
+                    border: 10px dotted blue !important;
+                    animation: boom 8s linear infinite;
+                }
+
+            }
+
+        }
+
+    }
+
+ }
+
+
+ .yellow{
+    position: absolute;
+    top: 70px;
+    left: 460px;
+     border: 10px dotted yellow !important;
+    animation: boom 7s linear infinite;
+
+    >.b1{
+
+        opacity: 0;
+        width: 250px;
+        height: 250px;
+        border: 10px dotted yellow !important;
+        animation: boom 7s linear infinite;
+        >.b2{
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+            border: 10px dotted yellow !important;
+            animation: boom 7s linear infinite;
+            >.b3{
+                opacity: 0;
+                width: 150px;
+                height: 150px;
+                border: 10px dotted yellow !important;
+                animation: boom 7s linear infinite;
+                >.b4{
+
+                    opacity: 0;
+                    width: 100px;
+                    height: 100px;
+                    border: 10px dotted yellow !important;
+                    animation: boom 7s linear infinite;
+                }
+
+            }
+
+        }
+
+    }
+
+ }
+
+
+ .red{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+     border: 10px dotted red !important;
+    animation: boom 6s linear infinite;
+
+    >.b1{
+
+        opacity: 0;
+        width: 250px;
+        height: 250px;
+        border: 10px dotted red !important;
+        animation: boom 6s linear infinite;
+        >.b2{
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+            border: 10px dotted red !important;
+            animation: boom 6s linear infinite;
+            >.b3{
+                opacity: 0;
+                width: 150px;
+                height: 150px;
+                border: 10px dotted red !important;
+                animation: boom 6s linear infinite;
+                >.b4{
+
+                    opacity: 0;
+                    width: 100px;
+                    height: 100px;
+                    border: 10px dotted red !important;
+                    animation: boom 6s linear infinite;
+                }
+
+            }
+
+        }
+
+    }
+
+ }
+
+
+
+
+
+
+ .white{
+    position: absolute;
+    top: 20px;
+    left: 450px;
+     border: 10px dotted white !important;
+    animation: boom 5s linear infinite;
+ 
+    >.b1{
+
+        opacity: 0;
+        width: 250px;
+        height: 250px;
+        border: 10px dotted white !important;
+        animation: boom 5s linear infinite;
+        >.b2{
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+            border: 10px dotted white !important;
+            animation: boom 5s linear infinite;
+            >.b3{
+                opacity: 0;
+                width: 150px;
+                height: 150px;
+                border: 10px dotted white !important;
+                animation: boom 5s linear infinite;
+                >.b4{
+
+                    opacity: 0;
+                    width: 100px;
+                    height: 100px;
+                    border: 10px dotted white !important;
+                    animation: boom 5s linear infinite;
+                }
+
+            }
+
+        }
+
+    }
+
+ }
+
+
+ .gold{
+   position: absolute;
+   top: 40px;
+   left: 900px;
+     border: 10px dotted gold !important;
+    animation: boom 4s linear infinite;
+   
+    >.b1{
+
+        opacity: 0;
+        width: 250px;
+        height: 250px;
+        border: 10px dotted gold !important;
+        animation: boom 4s linear infinite;
+        >.b2{
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+            border: 10px dotted gold !important;
+            animation: boom 4s linear infinite;
+            >.b3{
+                opacity: 0;
+                width: 150px;
+                height: 150px;
+                border: 10px dotted gold !important;
+                animation: boom 4s linear infinite;
+                >.b4{
+
+                    opacity: 0;
+                    width: 100px;
+                    height: 100px;
+                    border: 10px dotted gold !important;
+                    animation: boom 4s linear infinite;
+                }
+
+            }
+
+        }
+
+    }
+
+ }
+
+
+ .aqua{
+   position: absolute;
+   top: 500px;
+   left: 200px;
+     border: 10px dotted aqua!important;
+    animation: boom 3s linear infinite;
+   
+    >.b1{
+
+        opacity: 0;
+        width: 250px;
+        height: 250px;
+        border: 10px dotted aqua!important;
+        animation: boom 3s linear infinite;
+        >.b2{
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+            border: 10px dotted aqua!important;
+            animation: boom 3s linear infinite;
+            >.b3{
+                opacity: 0;
+                width: 150px;
+                height: 150px;
+                border: 10px dotted aqua!important;
+                animation: boom 3s linear infinite;
+                >.b4{
+
+                    opacity: 0;
+                    width: 100px;
+                    height: 100px;
+                    border: 10px dotted aqua!important;
+                    animation: boom 3s linear infinite;
+                }
+
+            }
+
+        }
+
+    }
+
+ }
+
+
+ .yellowgreen{
+   position: absolute;
+   top: 300px;
+   left: 80px;
+     border: 10px dotted yellowgreen !important;
+    animation: boom 10s linear infinite;
+   
+    >.b1{
+
+        opacity: 0;
+        width: 250px;
+        height: 250px;
+        border: 10px dotted yellowgreen !important;
+        animation: boom 10s linear infinite;
+        >.b2{
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+            border: 10px dotted yellowgreen !important;
+            animation: boom 10s linear infinite;
+            >.b3{
+                opacity: 0;
+                width: 150px;
+                height: 150px;
+                border: 10px dotted yellowgreen !important;
+                animation: boom 10s linear infinite;
+                >.b4{
+
+                    opacity: 0;
+                    width: 100px;
+                    height: 100px;
+                    border: 10px dotted yellowgreen !important;
+                    animation: boom 10s linear infinite;
+                }
+
+            }
+
+        }
+
+    }
+
+ }
+
+
+
+
+
+
+
+    @keyframes boom {
+      
+        0% {
+            opacity: 0;
+            transform:scale(0.1);
+        }
+        4% {
+            opacity: 1;
+            transform:scale(0.1);
+        }
+        8% {
+            opacity: 1;
+            transform: scale(1.0);
+        }
+        12% {
+            opacity: 0;
+            transform:scale(1.0);
+        }
+        16% {
+            opacity: 0;
+            transform:scale(0.1);
+        }
+        100% {
+            opacity: 0;
+            transform:scale(0.1);
+        }
+        
+    }
+}
